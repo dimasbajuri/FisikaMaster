@@ -1,22 +1,22 @@
 import React from 'react'
-import Header from './components/Hero/Header'
-import Navbar from './components/Navbar/Navbar'
-import Intro from './components/Intro/Intro';
+import Header from '../components/Hero/Header'
+import Navbar from '../components/Navbar/Navbar'
+import Intro from '../components/Intro/Intro';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import Start from './components/Start/Start';
-import MainFooter from './components/MainFooter/MainFooter';
+import Start from '../components/Start/Start';
+import MainFooter from '../components/MainFooter/MainFooter';
 
 library.add(fas, far, fab);
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const App = () => {
+const LandingPage = () => {
   return (
-    <div>
+    <div className='bg-slate-100'>
       <header>
         <Navbar />
         <Header  />
@@ -32,4 +32,4 @@ const App = () => {
   )
 }
 
-export default App
+export default LandingPage

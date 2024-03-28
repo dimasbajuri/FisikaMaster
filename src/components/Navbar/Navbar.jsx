@@ -6,7 +6,7 @@ const menu = [
     { id: 2, name: "Dukungan", href: "#", dropdown: true, dropdownItems: ["Hubungi Kami", "FAQ", "Bantuan"] },
     { id: 3, name: "Tentang Kami", href: "#", dropdown: false },
     { id: 4, name: "Mulai Belajar", href: "#", dropdown: false },
-    { id: 5, name: "Daftar", href: "#", dropdown: false },
+    { id: 5, name: "Login", href: "/login", dropdown: false },
 ]
 
 
